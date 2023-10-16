@@ -3,6 +3,11 @@
   //*GLOBAL
   *, *::before, *::after {
     box-sizing: border-box; }
+
+//VARIABLES
+$color_one: #fff;
+$color_two: #0a0a0a;
+$color_three: #fbc531;
     
 body {
     margin: 0;
@@ -18,15 +23,9 @@ section {
     margin: 96px 80px;
     }
 
-//VARIABLES
-$color_one: #fff;
-$color_two: #0a0a0a;
-$color_three: #fbc531;
-  
-
 //NAVIGATION
 
-.navigation{
+.navigation {
     display: flex;
     margin-top: 20px 40px;
     flex-direction: column;
@@ -35,7 +34,7 @@ $color_three: #fbc531;
     position: relative; 
 }
 
-.inline{
+.inline {
      display: flex;
     flex-direction: row;
 }
@@ -79,7 +78,7 @@ $color_three: #fbc531;
     position: relative;
     }
     
-.box_wrapper .box .icone{
+.box_wrapper .box .icone {
     color: $color_three;
     border-color: $color_three;
     border-radius: 50%;
