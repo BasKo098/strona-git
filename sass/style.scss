@@ -1,2 +1,136 @@
 
+  
+  //*GLOBAL
+  *, *::before, *::after {
+    box-sizing: border-box; }
+    
+body {
+    margin: 0;
+    text-align: center;
+    background: $color_one;
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: normal;
+    }    
+  
+section {
+    padding: 0;
+    margin: 96px 80px;
+    }
+
+//VARIABLES
+$color_one: #fff;
+$color_two: #0a0a0a;
+$color_three: #fbc531;
+  
+
+//NAVIGATION
+
+.navigation{
+    display: flex;
+    margin-top: 20px 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+}
+
+.inline{
+     display: flex;
+    flex-direction: row;
+}
+    
+.navigation li a {
+    text-decoration: none; 
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+    
+//header
+
+.btn a {
+    background-color: $color_three;
+    width: 150px;
+    height: 60px;
+    color: $color_one;
+    text-align: center;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+
+//Service section
+
+  .box_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0; 
+  }
+  
+.box {
+    flex: 0 0 33.333%; 
+    padding: 0 10px 0 10px;
+    position: relative;
+    }
+    
+.box_wrapper .box .icone{
+    color: $color_three;
+    border-color: $color_three;
+    border-radius: 50%;
+    padding: 20%;
+    margin: 0 10px;
+    background-color: $color_one;
+    color: $color_one;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+}
+
+//FOOTER
+.social ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    }
+
+footer {
+    display: flex;
+    margin-top: 80px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+}
+
+footer .social ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .social ul li i {
+  border-radius: 50%;
+  padding: 20%;
+  margin: 0 10px;
+  background-color: $color_two;
+  color: $color_one;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+
+
 
