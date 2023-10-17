@@ -9,35 +9,37 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Pacifico&family=Playball&family=Raleway:wght@100;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&family=Pacifico&family=Playball&family=Raleway:wght@100;300;700&family=Tilt+Neon&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="nav_container">
-            <div class="inline">
-                <a class="logo" href="#">Golden</a>
+    <main class="main_container">
+        <nav class="navigation">
+            <div class="nav_container">
+                <div class="inline data-bs-target="#mobile-menu"">
+                    <a class="logo" href="#">Golden</a>
+                </div>
+                <div class="inline">
+                    <ul class="nav_ul">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>  
             </div>
-            <div class="inline">
-                <ul class="nav_ul">
-                    <li>HOME</li>
-                    <li>SERVICE</li>
-                    <li>PORTFOLIO</li>
-                    <li>ABOUT</li>
-                    <li>CONTACT</li>
-                </ul>
-            </div>  
-        </div>
-    </nav>
-    <header class="intro">
-        <div class="intro_inner">
-            <h1>Welcome To Our Studio!</h1>
-            <h2>IT'S NICE TO MEET YOU</h2>
-            <a class="btn" href="#">TELL ME MORE</a>
-        </div>
-    </header>
+        </nav>
+        <header class="intro">
+            <div class="intro_inner">
+                <h1>Welcome To Our Studio!</h1>
+                <h2>IT'S NICE TO MEET YOU</h2>
+                <a class="btn" href="#">TELL ME MORE</a>
+            </div>
+        </header>
+    </main>
     
     <section class="services">
         <div class="container">
@@ -70,34 +72,52 @@
             <p class="about_title">Proin iaculis purus consequat sem cure</p>
             <div class="box_wrapper">
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Ebony $ Ivory</h2>
-                    <p class="about_title">Branding</p> 
+                    <div class="box_img">
+                        <img src="https://i.postimg.cc/MHGy3DgY/pexels-khizar-hayat-1114703.jpg" alt="keybord">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Ebon $ Ivory</h2>
+                        <p class="about_title">Branding</p>
+                    </div>
                 </div>
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Smart Stationary</h2>
-                    <p class="about_title">Print Design</p> 
+                    <div class="box_img">
+                        <img src="https://i.postimg.cc/SRkb8X28/pexels-natasha-fernandez-811572.jpg" alt="notes with pensil on desk">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Smart Stationary</h2>
+                        <p class="about_title">Print Design</p>
+                    </div>
                 </div>
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Clever Poster</h2>
-                    <p class="about_title">Print Design</p> 
+                    <div class="box_img">
+                        <img src="https://i.postimg.cc/bvcCd72S/pexels-michael-burrows-7128957.jpg" alt="hands with two card to choose">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Clever Poster</h2>
+                        <p class="about_title">Print Design</p> 
+                    </div>
                 </div>
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Vinyl Record</h2>
-                    <p>Product Mock-Up</p> 
+                    <div class="box_img">
+                        <img src="https://i.postimg.cc/Pfp3HbxR/pexels-matthias-groeneveld-3916058.jpg" alt="vinyl">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Vinyl Record</h2>
+                        <p>Product Mock-Up</p> 
+                     </div>
                 </div>
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Trehouse Template</h2>
-                    <p>Web Design</p> 
+                    <div class="box_img">
+                        <img src="https://i.postimg.cc/8582QyGN/pexels-tranmautritam-326508.jpg" alt="monitor with project design">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Trehouse Template</h2>
+                        <p>Web Design</p> 
+                    </div>
                 </div>
                 <div class="box">
-                    <img src="" alt="">
-                    <h2>Burned Lego</h2>
-                    <p>Branding</p> 
+                     <div class="box_img">
+                        <img src="https://i.postimg.cc/8kx1kbbJ/pexels-jonathan-borba-5359802.jpg" alt="burned logo on wine cork">
+                        <a href="#">Ebon $ Ivory</a>
+                        <h2>Burned Lego</h2>
+                        <p>Branding</p> 
+                    </div>
                 </div>
             </div>
         </div>    
@@ -109,22 +129,14 @@
         </div>
         <div class="social">
             <ul>
-                <li>
-                    <a href="#"><i class="fa-brands fa-twitter"></i>Tweeter</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-pinterest-p"></i>Pinterest</a>
-                </li>
-                <li>
-                    <a href="#"><i class="fa-brands fa-google-plus"></i>Google plus</a>
-                </li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i>Tweeter</a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i>Pinterest</a></li>
+                <li><a href="#"><i class="fa-brands fa-google-plus"></i>Google plus</a></li>
             </ul>
         </div>
     </footer>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
